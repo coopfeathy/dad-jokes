@@ -1,6 +1,6 @@
 {
-  "short_name": "ReactTemp",
-  "name": "Create React App Template",
+  "short_name": "Dad Jokes",
+  "name": "Dad Joke Simulator",
   "icons": [
     {
       "src": "logo.ico",
