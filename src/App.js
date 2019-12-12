@@ -1,4 +1,6 @@
 import React, { Component } from "react"
+import { Button } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./index.css"
 import jokes from "./jokes.json"
 
@@ -16,9 +18,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>this is my big text</h1>
-        <button onClick={this.pickJoke}>Click to do something</button>
-        <div>{this.state.displayJoke}</div>
+        <h1 className="title">Hey Daaaad... How'd you get in here???</h1>
+        <Button className="button" variant="light" size="lg" onClick={this.pickJoke}>Click for a joke from dear old dad.</Button>
+        <div className="output">{this.state.displayJoke}</div>
       </div>
     );
   }
